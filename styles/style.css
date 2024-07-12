@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Quintessential&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Quintessential", serif;
+}
+main {
+  max-width: 70%;
+  margin: 0 auto;
+  display: grid;
+  align-items: center;
+}
+.parent {
+  width: 100%;
+  /* when we set height to the parent then we can use align-content: center */
+  border: 2px solid black;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  /* if we use grid-gap then we cannot use column-gap and row-gap  */
+  /* column-gap: 20px;
+  row-gap: 20px; */
+  grid-gap: 50px;
+}
+.child-day {
+  /* border: 2px solid palevioletred; */
+  border-radius: 5px;
+  background-color: #94f8b5;
+
+  height: 60px;
+  width: 60px;
+  font-size: 30px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.child {
+  /* border: 2px solid aquamarine; */
+  border-radius: 5px;
+  background-color: bisque;
+  height: 60px;
+  width: 60px;
+  font-size: 20px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
