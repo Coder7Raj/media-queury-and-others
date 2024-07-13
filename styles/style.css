@@ -47,3 +47,29 @@
     grid-template-columns: repeat(1, 1fr);
   }
 }
+/* section-2 */
+.media_2 {
+  display: grid;
+  margin-top: 100px;
+}
+.media_2 img {
+  width: 100%;
+  height: 100%;
+}
+.header,
+.main,
+.footer {
+  height: 400px;
+}
+.display {
+  display: flex;
+  gap: 5px;
+}
+.main {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.img-2 {
+  display: grid;
+  grid-template-columns: repeat(2);
+}
