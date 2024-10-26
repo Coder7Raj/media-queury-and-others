@@ -18,7 +18,7 @@ CRICKET-XI is an interactive web application that allows users to manage and sel
 3. **Responsive Design**: The app is fully responsive, ensuring a seamless experience across different devices and screen sizes. Tailwind CSS is used to create a visually appealing layout that adapts to any viewport.
 
 ## Getting Started
-Live link of the project:
+Live link of the project :
 
 ```bash
 https://github.com/programming-hero-web-course1/b10a7-dream-11-Coder7Raj
